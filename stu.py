@@ -6,13 +6,12 @@ class Student:
         self.age = age
         self.gender= gender
          
-    # Function to create and append new student   
+    # Insert Function   
     def insert(self, Name, Rollno, age, gender ):
-        # use  ' int(input()) ' method to take input from user
         ob = Student(Name, Rollno, age, gender )
         ls.append(ob)
   
-    # Function to display student details     
+        
     def display(self, ob):
             print("Name   : ", ob.name)
             print("RollNo : ", ob.rollno)
@@ -37,7 +36,7 @@ class Student:
         roll = No
         ls[i].rollno = roll;
          
-# Create a list to add Students
+
 ls =[]
 obj = Student('', 0, 0, '')
   
