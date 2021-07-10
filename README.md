@@ -11,4 +11,11 @@ Problem #2 Solution
 Used Recursive Function to check if a string is a polindrome.
 Initially Case of a string has been changed (s.lower()) to ignore the case in the output.
 If length of string is less than 2,then return true
-Else if compare first and last elements of string if they are same
+Else if compare first and last elements of string if they are same.Then,substring(1,l-1) is called.
+This method compares the first and the last element of the string and gives the rest of the substring to a recursive call to itself. 
+
+Problem #3 Solution
+
+
+
+
